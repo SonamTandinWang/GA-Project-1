@@ -1,0 +1,118 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Connect 4</title>
+    <style type="text/css">
+        #columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven {
+            float: left;
+        }
+
+        #columnOne div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnTwo div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnThree div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnFour div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnFive div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnSix div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+        #columnSeven div{
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+
+    </style>
+</head>
+    <body>
+        <p>Turn: <span id="turn"></span></p>
+
+        <div id="game">
+            <div id="columnOne">
+                <div id="a6"></div>
+                <div id="a5"></div>
+                <div id="a4"></div>
+                <div id="a3"></div>
+                <div id="a2"></div>
+                <div id="a1"></div>
+            </div>
+            <div id="columnTwo">
+                <div id="b6"></div>
+                <div id="b5"></div>
+                <div id="b4"></div>
+                <div id="b3"></div>
+                <div id="b2"></div>
+                <div id="b1"></div>
+            </div>
+            <div id="columnThree">
+                <div id="c6"></div>
+                <div id="c5"></div>
+                <div id="c4"></div>
+                <div id="c3"></div>
+                <div id="c2"></div>
+                <div id="c1"></div>
+            </div>
+            <div id="columnFour">
+                <div id="d6"></div>
+                <div id="d5"></div>
+                <div id="d4"></div>
+                <div id="d3"></div>
+                <div id="d2"></div>
+                <div id="d1"></div>
+            </div>
+            <div id="columnFive">
+                <div id="e6"></div>
+                <div id="e5"></div>
+                <div id="e4"></div>
+                <div id="e3"></div>
+                <div id="e2"></div>
+                <div id="e1"></div>
+            </div>
+            <div id="columnSix">
+                <div id="e6"></div>
+                <div id="e5"></div>
+                <div id="e4"></div>
+                <div id="e3"></div>
+                <div id="e2"></div>
+                <div id="e1"></div>
+            </div>
+            <div id="columnSeven">
+                <div id="f6"></div>
+                <div id="f5"></div>
+                <div id="f4"></div>
+                <div id="f3"></div>
+                <div id="f2"></div>
+                <div id="f1"></div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="connectfour.js"></script>
+    </body>
+</html>
