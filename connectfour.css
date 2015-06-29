@@ -1,0 +1,100 @@
+
+    body {
+        background-image: url(file:///Users/sonamtandinwang/Desktop/GA-Project-1/images/rocks.jpg); 
+        background-size: cover;
+    }
+
+    #title {
+        content: url(file:///Users/sonamtandinwang/Desktop/GA-Project-1/images/title1.png);
+        background-color: rgba(255,255,255,0.5);
+        transform: scale(0.8, 0.8);
+        margin-left: auto;
+        margin-right: auto;     
+        position: relative;
+        box-shadow: 1px 1px 1px black;
+
+    }
+
+    #game {
+       background-color: rgba(0,0,0,0.5);
+       position: relative;
+       top: 60%;
+       left: 47%;
+       width: 600px;
+       height: 500px;
+       margin-top: 10px;        
+       margin-left: -250px; 
+       box-shadow: 1px 1px 1px black;
+    }
+
+
+    #columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven {
+            float: left;
+            position: relative;
+            top: 6%;
+            left: 6%;                   
+    }
+
+    #columnOne div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnTwo div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnThree div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnFour div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnFive div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnSix div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    #columnSeven div{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2.6px solid #d9d9d9;
+    }
+
+    .player1 {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: rgba(75, 110, 118, 0.9);
+    }
+
+    .player2 {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.8);
+    }
+
