@@ -120,6 +120,9 @@ var player1Click = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1
 var player2Click = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1/Sounds/VMH2 Minimal Perc 256.wav');
 var miniWinMix = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1/Sounds/MiniWinMix.wav');
 
+// var resetButton = $("#reset");
+
+// (resetButton).on("click", document.location.reload(true));
 
 $('#columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven').on('click', function() {
 
