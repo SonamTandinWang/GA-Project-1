@@ -117,6 +117,7 @@ var didSomeoneWin = function () {
 // LE GAME 
 
 var player1Click = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1/Sounds/VMH2 Minimal Perc 255.wav');
+
 var player2Click = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1/Sounds/VMH2 Minimal Perc 256.wav');
 var miniWinMix = new Audio('file:///Users/sonamtandinwang/Desktop/GA-Project-1/Sounds/MiniWinMix.wav');
 
